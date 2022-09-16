@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section>
+    <div class="container p-5">
+        <div class="row d-flex justify-content-center">
+            <div>
+                <h2 class="fst-italic">Experience the simplicity of a digital library.</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col d-flex flex-column">
+                <div class="row d-flex p-5">
+                    <img src="../../static/images/undraw_reading_time_re_phf7.svg" class="w-50">
+                    <div class="d-flex mt-5">
+                        <a class="btn btn-primary" href="{{ url_for('auth.signup') }}" role="button">Sign-Up Today</a>
+                    </div>
+                </div>
+        
+                <div class="row d-flex justify-content-end p-5">
+                    <img src="../../static/images/undraw_reading_book_re_kqpk.svg" class="w-50 d-flex ">
+                </div>
+            </div>
+            <div class="col">
+                <img src="../../static/images/undraw_reading_re_29f8.svg">
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

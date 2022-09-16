@@ -1,0 +1,16 @@
+/* Step 1: Common Properties
+These styles are required to make icons render reliably */
+.icon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.icon:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
